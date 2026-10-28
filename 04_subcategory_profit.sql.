@@ -1,0 +1,7 @@
+
+SELECT
+    Sub_Category,
+    SUM(Profit) AS total_profit
+FROM Superstore
+GROUP BY Sub_Category
+ORDER BY total_profit DESC;
