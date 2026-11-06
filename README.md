@@ -1,64 +1,71 @@
-# Sales Data Analysis
+ Sales Data Analysis | Excel & SQL
 
-## Project Overview
-This beginner-friendly data analytics project explores sales and profit performance using a Superstore dataset. The goal is to identify business trends, understand product and customer performance, and turn data into useful business insights.
+ Project Overview
+This project focuses on analysing Superstore sales data using Microsoft Excel and SQL to identify sales trends, evaluate business performance, and generate meaningful insights.
 
-## Project Objectives
-- Analyse overall sales, profit and profit margin.
-- Compare sales and profit across product categories and subcategories.
-- Identify high-performing and low-performing products.
-- Compare regional and customer segment performance.
-- Analyse monthly trends and the relationship between discounts and profit.
-- Explore shipping mode performance.
-- Support data-driven business decisions.
+The analysis explores sales, profit, product categories, regions, customer segments, and yearly performance.
 
-## Tools Used
-- **Microsoft Excel:** Data cleaning and initial analysis.
-- **SQL:** Data aggregation, grouping, sorting and business analysis.
-- **Power BI:** Planned interactive dashboard.
+ Tools & Technologies
+- Microsoft Excel
+- SQL
+- PivotTables and PivotCharts
+- Excel formulas and data analysis
 
-## Dataset
-The project uses a Superstore sales dataset containing order, product, customer and shipping information, including sales, profit, quantity, discounts and categories.
+ Project Files
 
-The dataset was downloaded separately and is currently stored locally rather than included in this repository.
+| File / Folder | Description |
+|---|---|
+| `Sales_Analysis.xlsx` | Excel workbook containing sales analysis and PivotTables |
+| `sql_queries/` | SQL queries used for data analysis |
+| `04_subcategory_profit.sql` | SQL analysis of subcategory profitability |
+| `README.md` | Project documentation |
 
-## SQL Analysis
-The project includes 20 SQL queries covering the following areas:
+ Analysis Performed
 
-- Overall sales, profit and record count.
-- Category and subcategory sales and profit.
-- Regional sales and profit.
-- Customer segment performance.
-- Monthly sales and profit trends.
-- Profit margin analysis.
-- Discount-level profit analysis.
-- Shipping mode sales and profit.
-- Lowest-performing categories.
+ Excel Analysis
+- Analysed overall sales and profit.
+- Compared sales across product categories.
+- Examined regional sales performance.
+- Analysed customer segments.
+- Evaluated yearly sales trends.
+- Identified profitable and loss-making subcategories.
+- Created PivotTables and charts to summarise findings.
 
-The SQL files are available in the [`sql_queries`](sql_queries/) folder.
+ SQL Analysis
+The project includes 20 SQL queries covering:
+- Overall sales and profit
+- Category-wise performance
+- Subcategory analysis
+- Regional performance
+- Customer segments
+- Year-wise trends
+- Discount and shipping analysis
 
-## Key Findings
-Initial analysis identified the following findings:
+SQL concepts used include SELECT, WHERE, GROUP BY, HAVING, ORDER BY, aggregate functions, and CASE WHEN.
 
-- **Technology** recorded the highest total sales and profit among product categories.
-- **Copiers** recorded the highest total profit among subcategories.
-- **Tables** recorded a negative total profit.
-- The **West** region had the highest total sales and profit.
-- The **Consumer** segment recorded the highest sales.
-- **Standard Class** recorded the highest total sales and profit among shipping modes.
-- **Office Supplies** recorded the lowest total sales among product categories.
-- The overall profit margin was approximately **12.56%**.
-- Orders with a **50% discount** had the lowest average profit among the discount levels in the query results.
+ Key Business Insights
 
-These findings describe the dataset and do not, by themselves, establish the causes of profit or sales differences.
+- Technology generated the highest sales and profit among the three main categories.
+- The West region recorded the highest sales.
+- Consumer customers contributed the largest share of sales.
+- Tables and Bookcases were among the loss-making subcategories.
+- The year 2026 recorded the highest sales in the analysed dataset.
 
-## Project Status
-**SQL analysis completed:** 20 queries created and organised in GitHub.
+ Project Objective
 
-**Next steps:**
-- Review and finalise the business findings.
-- Plan and build a Power BI dashboard.
-- Add visualisations and actionable business recommendations.
+The objective was to develop practical skills in data cleaning, data analysis, SQL querying, and business insight generation.
 
-## Author
-Aspiring Data Analyst | BSc Information Technology
+ Skills Demonstrated
+- Data analysis
+- Excel formulas and PivotTables
+- SQL querying
+- Business interpretation
+- Data summarisation
+- Analytical thinking
+
+ Project Status
+Excel and SQL analysis completed. Further visualisation and reporting improvements are planned.
+
+---
+
+**Created as a Data Analytics learning project.**
