@@ -46,13 +46,23 @@ The project includes 20 SQL queries covering:
 
 SQL concepts used include SELECT, WHERE, GROUP BY, HAVING, ORDER BY, aggregate functions, and CASE WHEN.
 
- Key Business Insights
+Key Business Insights
 
-- Technology generated the highest sales and profit among the three main categories.
-- The West region recorded the highest sales.
-- Consumer customers contributed the largest share of sales.
-- Tables and Bookcases were among the loss-making subcategories.
-- The year 2026 recorded the highest sales in the analysed dataset.
+Based on the Excel analysis, the following insights were identified:
+
+1. **Technology:** Generated the highest sales (836,154.03) and profit (145,454.95).
+2. **West Region:** Recorded the highest regional sales.
+3. **Consumer Segment:** Contributed the largest share of sales.
+4. **Furniture:** Generated approximately 742,000 in sales but only 18,451 in profit.
+5. **Overall Performance:** Total sales were approximately 2,297,200.86, with total profit of 286,397.02.
+
+Business Recommendations
+
+- Investigate the comparatively low profit margin in Furniture.
+- Review product costs, pricing and discounts.
+- Continue monitoring Technology's sales and profitability.
+- Compare regional and customer-segment performance to identify opportunities.
+
 
  Project Objective
 
