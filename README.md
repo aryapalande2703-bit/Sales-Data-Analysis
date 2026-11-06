@@ -24,8 +24,8 @@ The analysis explores sales, profit, product categories, regions, customer segme
 
  Excel Analysis
  Excel Dashboard Preview
+ ![Sales and Profit by Category](screenshots/Screenshot%202026-11-06%20235656.png)
 
-![Sales and Profit by Category](screenshots/sales-profit-by-category.png)
 - Analysed overall sales and profit.
 - Compared sales across product categories.
 - Examined regional sales performance.
